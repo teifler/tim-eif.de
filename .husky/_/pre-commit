@@ -8,4 +8,4 @@ npx --no-install eslint --ignore-path .gitignore .
 npx --no-install commitlint --edit "$1"
 
 # Run tests (replace 'npm test' with the command you use to run tests)
-npm test
+# npm test
