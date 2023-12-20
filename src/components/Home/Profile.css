@@ -1,0 +1,10 @@
+.profile-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.profile-links li {
+  width: 50px; /* Adjust this value as needed */
+  text-align: center; /* Center the icon and text within the list item */
+}
