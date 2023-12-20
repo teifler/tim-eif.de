@@ -66,8 +66,11 @@ const Profile = () => {
           </span>
         </div>
         <div className="profile-contact">
-          <button className="btn primary-btn">Contact me</button>
-          <button className="btn highlighted-btn">Hire Me</button>
+          <button className="btn btn-primary btn-sm">Get in Touch</button>
+          <button className="btn btn-outline-secondary">Hire Me</button>
+        </div>
+        <div className="profile-picture">
+          <p>Insert the profile pic..</p>
         </div>
       </div>
     </div>
