@@ -1,12 +1,14 @@
+import './Profile.css';
+
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { TypeAnimation } from 'react-type-animation';
 import {
   BrandFacebook,
   BrandGithub,
   BrandLinkedin,
   BrandYoutube,
 } from 'tabler-icons-react';
-import { TypeAnimation } from 'react-type-animation';
-import './Profile.css';
-import React from 'react';
 
 // Define a type for the link structure
 type Link = {
@@ -39,21 +41,21 @@ const Profile = () => {
         </div>
         <div className="profile-details-name">
           <p className="primary-text">
-            Hello, I'm <span className="highligted-text">Tim</span>
+            Hello, I&apos;m <span className="highligted-text">Tim</span>
           </p>
         </div>
         <div className="profile-details-role">
           <h1>
             <TypeAnimation
               sequence={[
-                'Passionate Frontend Engineer 🚀 ',
-                1000,
-                'Expert in React & React Native 🌟',
-                1000,
-                'MERN Stack Specialist 💻',
-                1000,
-                'UI/UX Enthusiast 🎨 ',
-                1000,
+                'Passionate Frontend Engineer <span>🚀</span> ',
+                2500,
+                'Expert in React & React Native <span>🌟</span>',
+                2500,
+                'MERN Stack Specialist <span>💻</span>',
+                2500,
+                'UI/UX Enthusiast <span>🎨</span> ',
+                2500,
               ]}
               wrapper="span"
               speed={50}
@@ -65,13 +67,13 @@ const Profile = () => {
             Love to develop modern web applications
           </span>
         </div>
-        <div className="profile-contact">
+        <div className="profile-action">
           <button className="btn btn-primary btn-sm">Get in Touch</button>
-          <button className="btn btn-outline-secondary">Hire Me</button>
+          <button className="btn btn-highlighted">Hire Me</button>
         </div>
-        <div className="profile-picture">
-          <p>Insert the profile pic..</p>
-        </div>
+      </div>
+      <div className="profile-picture">
+        <div className="profile-picture-background"></div>
       </div>
     </div>
   );
