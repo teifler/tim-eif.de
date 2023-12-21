@@ -48,13 +48,13 @@ const Profile = () => {
           <h1>
             <TypeAnimation
               sequence={[
-                'Passionate Frontend Engineer <span>🚀</span> ',
+                'Passionate Frontend Engineer 🚀',
                 2500,
-                'Expert in React & React Native <span>🌟</span>',
+                'Expert in React & React Native 🌟',
                 2500,
-                'MERN Stack Specialist <span>💻</span>',
+                'MERN Stack Specialist 💻',
                 2500,
-                'UI/UX Enthusiast <span>🎨</span> ',
+                'UI/UX Enthusiast 🎨',
                 2500,
               ]}
               wrapper="span"
@@ -64,7 +64,7 @@ const Profile = () => {
             />
           </h1>
           <span className="profile-details-description">
-            Love to develop modern test web applications
+            Love to develop modern web applications
           </span>
         </div>
         <div className="profile-action">

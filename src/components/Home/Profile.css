@@ -12,6 +12,7 @@
 .profile-wrapper {
   color: white;
   width: 60%;
+  order: 1;
 }
 
 .profile-details-name {
@@ -67,11 +68,34 @@
   height: 300px;
   width: 300px;
   margin: 10px 0 0;
+  order: 2;
 }
 
-@media (min-width: 840px) {
+/* Media query for smaller screens */
+@media (max-width: 770px) {
+  /* Adjust the breakpoint as needed */
+  .profile-container {
+    flex-direction: column;
+    padding-bottom: 12px;
+  }
+
+  .profile-details-name {
+    font-size: 24px;
+  }
+
+  .profile-details-role h1 {
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
   .profile-picture {
-    margin: 10px 0 0 0;
+    order: 1; /* Change the order so it's on top */
+  }
+
+  .profile-wrapper {
+    order: 2;
+    width: 100%; /* Adjust the width as needed */
   }
 }
 

@@ -13,7 +13,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false, //fix later there is an issue
+    //"noEmit": false, fix there is an issue also add to package json
     "jsx": "react-jsx"
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx"],
