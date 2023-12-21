@@ -64,7 +64,7 @@ const Profile = () => {
             />
           </h1>
           <span className="profile-details-description">
-            Love to develop modern web applications
+            Love to develop modern test web applications
           </span>
         </div>
         <div className="profile-action">
