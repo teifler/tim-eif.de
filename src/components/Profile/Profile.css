@@ -6,7 +6,6 @@
   flex-wrap: wrap;
   height: 10%;
   min-height: fit-content;
-  background-image: url('../../assets/bg.jpg');
 }
 
 .profile-wrapper {
@@ -73,7 +72,6 @@
 
 /* Media query for smaller screens */
 @media (max-width: 770px) {
-  /* Adjust the breakpoint as needed */
   .profile-container {
     flex-direction: column;
     padding-bottom: 12px;
@@ -90,12 +88,12 @@
   }
 
   .profile-picture {
-    order: 1; /* Change the order so it's on top */
+    order: 1;
   }
 
   .profile-wrapper {
     order: 2;
-    width: 100%; /* Adjust the width as needed */
+    width: 100%;
   }
 }
 

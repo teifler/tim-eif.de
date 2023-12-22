@@ -1,14 +1,13 @@
 import './App.css';
 
-import Profile from './components/Home/Profile';
-import logo from './logo.svg';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="body">
-          <Profile />
+          <Home />
         </div>
       </header>
     </div>

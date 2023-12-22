@@ -1,7 +1,5 @@
 import './Profile.css';
 
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 import { TypeAnimation } from 'react-type-animation';
 import {
   BrandFacebook,
@@ -68,7 +66,7 @@ const Profile = () => {
           </span>
         </div>
         <div className="profile-action">
-          <button className="btn btn-primary btn-sm">Get in Touch</button>
+          <button className="btn btn-primary">Get in Touch</button>
           <button className="btn btn-highlighted">Hire Me</button>
         </div>
       </div>
