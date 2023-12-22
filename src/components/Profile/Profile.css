@@ -100,7 +100,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url('../../assets/avatar.svg');
+  background-image: url('../../assets/images/avatar.svg');
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
