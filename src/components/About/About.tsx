@@ -38,7 +38,7 @@ const About = () => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="about-action-btn">
             <button className="btn btn-primary">Hire Me</button>
             <button className="btn btn-highlighted">Get Resume</button>
           </div>

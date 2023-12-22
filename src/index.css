@@ -21,7 +21,6 @@
 
 body {
   margin: 0;
-  overflow-y: overlay;
   font-family: var(--font-poppins);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,19 +79,12 @@ body ::-webkit-scrollbar-thumb,
   color: var(--white-color);
   font-size: 12px;
   background-color: var(--highlight-btn-bg-color);
-  margin: 0 0 0 28px;
   border-radius: 12px solid white;
 }
 
 .btn-highlighted:hover {
   background-color: cornsilk;
   color: #111;
-}
-
-@media only screen and (max-width: 568px) {
-  .btn-highlighted {
-    z-index: -900;
-  }
 }
 
 .red-border {
