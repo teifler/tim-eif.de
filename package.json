@@ -1,6 +1,6 @@
 {
-  "name": "vite-reactts-eslint-prettier",
-  "version": "0.0.0",
+  "name": "tim-eif-landing-page",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -48,7 +48,6 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "tsc --noEmit",
       "eslint --fix",
       "prettier --write"
     ]

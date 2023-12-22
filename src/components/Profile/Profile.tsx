@@ -1,7 +1,5 @@
 import './Profile.css';
 
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 import { TypeAnimation } from 'react-type-animation';
 import {
   BrandFacebook,
@@ -48,13 +46,13 @@ const Profile = () => {
           <h1>
             <TypeAnimation
               sequence={[
-                'Passionate Frontend Engineer <span>🚀</span> ',
+                'Passionate Frontend Engineer 🚀',
                 2500,
-                'Expert in React & React Native <span>🌟</span>',
+                'Expert in React & React Native 🌟',
                 2500,
-                'MERN Stack Specialist <span>💻</span>',
+                'MERN Stack Specialist 💻',
                 2500,
-                'UI/UX Enthusiast <span>🎨</span> ',
+                'UI/UX Enthusiast 🎨',
                 2500,
               ]}
               wrapper="span"
@@ -64,11 +62,11 @@ const Profile = () => {
             />
           </h1>
           <span className="profile-details-description">
-            Love to develop modern test web applications
+            Love to develop modern web applications
           </span>
         </div>
         <div className="profile-action">
-          <button className="btn btn-primary btn-sm">Get in Touch</button>
+          <button className="btn btn-primary">Get in Touch</button>
           <button className="btn btn-highlighted">Hire Me</button>
         </div>
       </div>
