@@ -65,7 +65,7 @@ const Profile = () => {
             Love to develop modern web applications
           </span>
         </div>
-        <div className="profile-action">
+        <div className="profile-action-btn">
           <button className="btn btn-primary">Get in Touch</button>
           <button className="btn btn-highlighted">Hire Me</button>
         </div>

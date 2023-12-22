@@ -1,5 +1,6 @@
 import './App.css';
 
+import About from './components/About/About';
 import Home from './components/Home/Home';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <div className="body">
           <Home />
+          <About />
         </div>
       </header>
     </div>

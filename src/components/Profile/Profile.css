@@ -70,6 +70,15 @@
   order: 2;
 }
 
+.profile-action-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  flex: 1;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 770px) {
   .profile-container {
@@ -100,7 +109,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url('../../assets/avatar.svg');
+  background-image: url('../../assets/images/avatar.svg');
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
